@@ -1,0 +1,90 @@
+.playlist__title {
+  color: #fa0650;
+  padding-bottom: 12px;
+}
+
+.contents__image {
+  width: 100%;
+  padding-bottom: 13px;
+}
+
+/* 가로 스크롤 하는 방법  */
+.contents__playlist,
+.contents__list {
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.3);
+  margin-bottom: 30px;
+}
+
+.playlist__list {
+  display: inline-block;
+  width: 80%;
+}
+
+.contents {
+  display: inline-block;
+  width: 49%;
+}
+
+.contents__main {
+  font-size: 18px;
+  padding-bottom: 6px;
+}
+
+.contents__sub {
+  font-size: 14px;
+  font-weight: 400;
+  color: #727272;
+}
+
+.contents__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contents__title .title {
+  font-size: 24px;
+  padding: 16px 0;
+  font-weight: 600;
+}
+
+.contents__title .more {
+  font-size: 14px;
+  font-weight: 400;
+  color: #727272;
+}
+
+.more:hover {
+  color: #fa0650;
+  cursor: pointer;
+}
+
+.contents__list2 {
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.contents2 {
+  width: 100%;
+}
+
+.contents3 {
+  display: flex;
+  align-items: center;
+}
+
+.contents__image3 {
+  width: 50px;
+  padding: 5px 0px;
+}
+
+.contents__detail3 {
+  padding-left: 15px;
+}

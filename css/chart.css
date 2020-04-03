@@ -1,0 +1,25 @@
+.chart__title .chart__update {
+  font-size: 14px;
+  font-weight: 400;
+  color: #727272;
+}
+
+.chart__title .title {
+  font-weight: 700;
+  padding: 5px 0;
+}
+
+.chart__title {
+  padding: 10px 0;
+}
+
+.chart__num {
+  padding-left: 15px;
+  padding-top: 10px;
+  font-size: 18px;
+  align-self: flex-start;
+}
+
+.contents3.block {
+  margin-bottom: 130px;
+}

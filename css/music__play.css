@@ -1,0 +1,67 @@
+.music__play-parent {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 0 20px;
+  padding-bottom: 15px;
+  margin-bottom: 54px;
+  padding-top: 13px;
+  background-color: rgba(151, 151, 151, 0.8);
+}
+
+.music__play {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1px;
+}
+
+.music__play .image__title {
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  align-items: center;
+}
+
+.image__title .play__image {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.play__info .play__singer {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.play__info .play__title {
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+.music__play__column i {
+  padding-left: 14px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.music__play__column i:hover {
+  color: #fa0650;
+}
+
+@keyframes mpAnim {
+  0% {
+    transform: translateY(200px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+.music__play-parent {
+  transform: translateY(200px);
+  animation: mpAnim 0.3s ease-out forwards;
+  animation-delay: 0.3s;
+}

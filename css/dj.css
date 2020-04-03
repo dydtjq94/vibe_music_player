@@ -1,0 +1,23 @@
+.contents__list__dj {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+
+.contents__dj {
+  /* background-color: blue; */
+  width: 50%;
+  padding: 5px 8px;
+}
+
+.contents__image_dj {
+  width: 100%;
+}
+
+.contents__dj.block:last-child,
+.contents__dj.block:nth-child(5) {
+  margin-bottom: 160px;
+}

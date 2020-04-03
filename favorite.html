@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Favorite</title>
+  </head>
+  <body>
+    <div class="status__fix">
+      <div class="status">
+        <div class="status status__column">
+          <i class="fas fa-signal"></i>
+          <span class="telecom">LG U+ LTE</span>
+        </div>
+        <div class="status status__column">
+          <span class="header__time">오후 5:17</span>
+        </div>
+        <div class="status status__column">
+          <i class="fas fa-lock"></i>
+          <i class="fas fa-clock"></i>
+          <span class="battery__status">63%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__column">
+        <h1 class="header__title">
+          보관함
+        </h1>
+      </div>
+      <div class="header__column header__favorite">
+        <i class="fas fa-cog"></i>
+      </div>
+    </header>
+    <main class="favorite">
+      <ul class="favorite__list">
+        <li class="favorite__list-contents selected">노래</li>
+        <li class="favorite__list-contents">아티스트</li>
+        <li class="favorite__list-contents">앨범</li>
+        <li class="favorite__list-contents">풀레이리스트</li>
+        <li class="favorite__list-contents">받은 노래</li>
+        <li class="favorite__list-contents">저장한 노래</li>
+        <li class="favorite__list-contents">저장한 앨범</li>
+        <li class="favorite__list-contents">저장한 플레이리스트</li>
+      </ul>
+
+      <div class="favorite-sing">
+        <div class="sing-title">
+          좋아하는 노래
+        </div>
+        <div class="sing-content">
+          내가 좋아하는 노래들을 모아서 감상해 보세요.
+        </div>
+      </div>
+    </main>
+    <div class="music__play-parent">
+      <div class="music__play">
+        <div class="music__play__column image__title">
+          <img src="images/playimage.jpeg" class="play__image" />
+          <div class="play__info">
+            <div class="play__singer">
+              Alexis french
+            </div>
+            <div class="play__title">
+              STARBOY
+            </div>
+          </div>
+        </div>
+        <div class="music__play__column">
+          <i class="fas fa-play"></i>
+          <i class="fas fa-forward"></i>
+          <i class="fas fa-list"></i>
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__column">
+          <a href="index.html" class="nav__list-link">
+            <i class="fas fa-music"></i>
+          </a>
+        </li>
+        <li class="nav__column">
+          <a href="chart.html" class="nav__list-link">
+            <i class="fas fa-trophy"></i>
+          </a>
+        </li>
+        <li class="nav__column">
+          <a href="dj.html" class="nav__list-link">
+            <i class="fas fa-bell"></i>
+          </a>
+        </li>
+        <li class="nav__column">
+          <a href="search.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__column">
+          <a href="favorite.html" class="nav__list-link">
+            <i class="fas fa-heart nav__selected"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

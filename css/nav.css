@@ -1,0 +1,35 @@
+.nav .nav__list {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  background-color: black;
+}
+
+.nav__column i {
+  font-size: 24px;
+  color: #666666;
+}
+
+.nav__column .nav__selected {
+  color: #fa0650;
+}
+
+@keyframes navAnim {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.nav {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  animation: navAnim 0.3s linear forwards;
+}
